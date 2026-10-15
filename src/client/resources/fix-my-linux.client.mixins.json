@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.aura.fixmylinux.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"keybindfix.InputTypeMixin",
+		"keybindfix.KeyMappingMixin",
+		"keybindfix.KeyDisplayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

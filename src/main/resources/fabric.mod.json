@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "fix-my-linux",
+	"version": "${version}",
+	"name": "Fix My Linux",
+	"description": "Fixes common Linux Minecraft bugs",
+	"authors": [
+		"Auraea"
+	],
+	"license": "ARR",
+	"icon": "assets/fix-my-linux/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aura.fixmylinux.FixMyLinux"
+		],
+		"client": [
+			"com.aura.fixmylinux.client.FixMyLinuxClient"
+		]
+	},
+	"mixins": [
+		"fix-my-linux.mixins.json",
+		{
+			"config": "fix-my-linux.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
