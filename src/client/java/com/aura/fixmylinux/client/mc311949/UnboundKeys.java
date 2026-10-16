@@ -1,4 +1,4 @@
-package com.aura.fixmylinux.client.keybindfix;
+package com.aura.fixmylinux.client.mc311949;
 
 import com.mojang.blaze3d.platform.InputConstants;
 

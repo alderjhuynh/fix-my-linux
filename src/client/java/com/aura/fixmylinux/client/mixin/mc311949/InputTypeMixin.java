@@ -1,6 +1,6 @@
-package com.aura.fixmylinux.client.mixin.keybindfix;
+package com.aura.fixmylinux.client.mixin.mc311949;
 
-import com.aura.fixmylinux.client.keybindfix.UnboundKeys;
+import com.aura.fixmylinux.client.mc311949.UnboundKeys;
 import com.mojang.blaze3d.platform.InputConstants;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

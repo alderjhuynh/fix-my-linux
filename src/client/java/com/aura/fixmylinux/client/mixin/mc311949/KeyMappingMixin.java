@@ -1,6 +1,6 @@
-package com.aura.fixmylinux.client.mixin.keybindfix;
+package com.aura.fixmylinux.client.mixin.mc311949;
 
-import com.aura.fixmylinux.client.keybindfix.UnboundKeys;
+import com.aura.fixmylinux.client.mc311949.UnboundKeys;
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
 import org.spongepowered.asm.mixin.Mixin;
@@ -13,7 +13,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 // stops unbound keys from being bound to key.keyboard.unknown
 @Mixin(KeyMapping.class)
 public abstract class KeyMappingMixin {
-    /** The bound key of this mapping. */
     @Shadow
     protected InputConstants.Key key;
 

@@ -3,9 +3,12 @@
 	"package": "com.aura.fixmylinux.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"keybindfix.InputTypeMixin",
-		"keybindfix.KeyMappingMixin",
-		"keybindfix.KeyDisplayMixin"
+		"mc311949.InputTypeMixin",
+		"mc311949.KeyMappingMixin",
+		"mc311949.KeyDisplayMixin",
+		"mc311424.RightShiftMixin",
+		"mc311451.ResyncMousePositionMixin",
+		"mc266908.WindowAppIdMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
